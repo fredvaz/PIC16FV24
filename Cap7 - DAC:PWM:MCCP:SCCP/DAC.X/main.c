@@ -5,12 +5,17 @@
  * Projecto - DAC de 8 bits, gera uma onda de 10Hz com Vp = a 2V com 256 Samples. 
  *
  * Formula -> Vadc = (Vdacref*DAC1DAT)/256 
+ *
  * Através da formula construi um array de valores, no matlab, correspondentes a onda que queremos 
+ * O Tempo entre cada amostra/sample definido pelo Timer1 define a Freq do Sinal
  *
+ * Neste caso como queremos 256 samples a 10Hz = 0.1s fazemos:
+ *
+ * 10Hz / 256 -> 0,1s / 256 = 391us 
+ * 391us = 16us * PR1
+ * PR1 = 391us / 16us
+ * 
  * Não esquecer que terá um offeset de 2.5V! (Podem tira-lo com o filtro passa alto)
- *
- *
- *
  *
  * Created on November 15, 2015, 3:27 PM
  */
