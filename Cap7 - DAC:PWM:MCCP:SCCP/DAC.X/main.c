@@ -6,7 +6,7 @@
  *
  * Formula -> Vadc = (Vdacref*DAC1DAT)/256 
  *
- * Através da formula construi um array de valores, no matlab, correspondentes a onda que queremos 
+ * Através da formula construímos um array de valores, no matlab, correspondentes a onda que queremos 
  * O Tempo entre cada amostra/sample definido pelo Timer1 define a Freq do Sinal
  *
  * Neste caso como queremos 256 samples a 10Hz = 0.1s fazemos:
