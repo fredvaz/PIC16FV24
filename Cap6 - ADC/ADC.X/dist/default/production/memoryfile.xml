@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/production/ADC.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>2048</length>
+      <used>1238</used>
+      <free>810</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>16128</length>
+      <used>7335</used>
+      <free>8793</free>
+    </memory>
+  </executable>
+</project>
